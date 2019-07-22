@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, loudspeaker, multi-channel",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-loudspeaker.git"
+    "url": "git://github.com/StephenFerrari14/hubot-loudspeaker.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-loudspeaker/issues"
+    "url": "https://github.com/StephenFerrari14/hubot-loudspeaker/issues"
   },
   "dependencies": {},
   "peerDependencies": {
