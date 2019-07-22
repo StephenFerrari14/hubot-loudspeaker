@@ -1,8 +1,10 @@
 # hubot-loudspeaker
 
 Hubot script that posts a message in all channels it is in. Used to get a message to multiple channels.
+Works for private and public slack channels.
+Starting announcement conversation requires to be in a DM with bot
 
-See [`src/loudspeaker.coffee`](src/loudspeaker.coffee) for full documentation.
+See [`src/loudspeaker.js`](src/loudspeaker.js) for full documentation.
 
 ## Installation
 
@@ -21,8 +23,11 @@ Then add **hubot-loudspeaker** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> announcement: I would like everyone to know THIS
+hubot>> Are you sure?
+Message preview:
+Announcement! Stephen Ferrari says I would like everyone to know THIS
+user1>> yes
 ```
 
 ## NPM Module
